@@ -23,5 +23,10 @@ test:
   database: losarticulos
 
 production:
-  <<: *default
-  database: losarticulos
+  # <<: *default
+  database: d8ch2ethd52d8t
+  host: ec2-23-23-253-106.compute-1.amazonaws.com
+  user: tzjaeuwvyfalya
+  port: 5432
+  password: cd3c24a87fa4e9493218f7657fcab48747beaf594a4704a16897162c3298cbc3
+
